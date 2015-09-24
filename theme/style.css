@@ -1,0 +1,584 @@
+/*
+Theme Name: Revoke
+Theme URI: http://teslathemes.com/demo/wp/revoke/
+Description: Awesome theme for a Wordpress cretive website
+Version: 1.9.6.2i
+Author: Tesla Themes
+Author URI: http://teslathemes.com/
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: light, theme-options,creative,responsive,unique,filtered portfolio,ajax forms
+*/
+
+@font-face {
+    font-family: futuris;
+    src: url(fonts/Exo2-Black.ttf);
+}
+
+@font-face {
+    font-family: comfortaa;
+    src: url(fonts/Comfortaa-Regular.ttf);
+}
+
+body{
+	font-size: 16px;	
+	color: #232323;
+	font-family: comfortaa;
+	 
+}
+
+p{
+	line-height: 25px;	
+}
+
+a, a:link, .blog .blogEntry .blogEntryFooter .blogEntryFooterComments a, a:link, .blog .blogEntry .blogEntryFooter .blogEntryFooterComments a, .postCommentsEntryBodyMessage a, .post .postBody a, .pageContents a, .addtoany_list.a2a_kit_size_32 a{
+	color: #909090;
+	text-decoration:none !important;
+	border-bottom: none !important;
+}	
+
+.blog .blogEntry .blogEntryFooter .blogEntryFooterComments a, .revoke-read-more{
+	border-bottom: none !important;
+	color: #909090 !important;	
+	text-decoration: none;
+}
+
+
+
+a:hover{
+	color: #FFC600 !important;	
+}
+
+.addtoany_list.a2a_kit_size_32 a{
+	font-size: 16px !important;	
+}
+
+.logo{
+	width: 135px !important;	
+	top: 10px;
+	position: relative !important;
+	z-index: 10;
+}
+
+.logo img{
+	width: 100%;	
+}
+
+
+
+.font1{
+	font-family: comfortaa, sans-serif;	
+}
+
+.font3{
+	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: comfortaa;*/
+}
+
+.yellow{
+	background: #ffc600;		
+}
+
+.bgcolor{
+	background: #ffc600 !important;	
+}	
+
+.titleContainer{
+	border-bottom-color: #ffc600 !important;	
+}
+
+
+.titleContainer .title{
+	border-bottom: 5px solid #ffc600 !important;	
+	border-bottom-color: #ffc600;
+}
+
+
+
+
+h1, h2, h1 a, h2 a{
+	font-family: futuris, arial black, impact, sans-serif !important;
+	color:#232323 !important;	
+}
+
+
+h2, h2 a{
+	font-size: 29px;	
+}
+
+input[type=text], textarea{
+	border: 1px solid #ffc600 !important;	
+}
+
+.works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo .worksEntryInfoTitle a{
+	color: #fff;	
+}
+
+.works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo .worksEntryInfoMore{
+	background-color: #79b626 !important;
+	color: #fff !important;	
+}
+
+.works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo .worksEntryInfoMore:hover{
+		color: #fff !important;	
+}
+
+.works .worksContainer.worksContainerView2 .worksEntry .worksEntryContainer .worksEntryInfo .worksEntryInfoTitle a{
+		font-size: 16px;
+		font-family: futuris, arial black, impact, sans-serif !important;	
+}
+
+input[type=submit]{
+	background-color: #79b626 !important;
+	color: #fff !important;	
+	border: none !important;
+	line-height: 28px !important; 
+	font-family: Comfortaa, sans-serif;
+}
+
+input[type=submit]:hover{
+	background-color: #8FC544 !important;	
+
+}
+
+input[type=submit]:active{
+	background-color: #70963C !important;		
+}
+
+.works .worksFilter ul.worksFilterCategories li.worksFilterCategoriesActive div, .works .worksFilter ul.worksFilterCategories li:hover div{
+	background-color: #79b626 !important; 	
+}
+
+.works .worksFilter ul.worksFilterCategories li.worksFilterCategoriesActive div, .works .worksFilter ul.worksFilterCategories li:hover div{
+	background-color: #79b626 !important;
+}
+
+.titleContainer .clientsNav .clientsNavPrev, .titleContainer .clientsNav .clientsNavNext{
+	background-color: #79b626 !important;	
+}
+.titleContainer .clientsNav .clientsNavPrev:hover, .titleContainer .clientsNav .clientsNavNext:hover{
+	background-color:  #8FC544 !important;	
+}
+
+.works .worksViews .worksViewsOption.worksViewsOptionActive, .works .worksViews .worksViewsOption:hover{
+	border-color: #ffc600 !important;	
+}
+
+
+
+
+.copyright{
+	float: none !important;
+}
+
+.textcolor{
+	color: #515151 !important;
+}
+
+.textcolor10{
+	color: #515151 !important;
+	font-family: comfortaa, sans-serif;
+}
+
+
+.lowerfooterbg {
+    background-color: #FFC600;
+	color: #515151 !important;
+}
+
+.lowerfooterbg .wrapper{
+	text-align: center;	
+}
+
+.atw-featured-image img{
+	margin: 10px 25px 10px 0;	
+}
+
+.sidebar .widget table caption{
+	font-family: comfortaa, sans-serif;	
+	text-transform: capitalize;
+	font-size: 14px; 
+}
+
+
+.sidebar .widget #searchform input{
+	width: 130px;	
+	padding: 4px 9px 4px 9px;
+}
+
+.sidebar .widget_revoke_latest_posts ul li a{
+	color: #528211;
+	
+}
+
+.sidebar .widget_revoke_latest_posts ul li a:hover{
+	color: #528211;	
+}
+
+.sidebar .widget ul li a, .sidebar .widget_revoke_categories ul li a{
+	font-family: comfortaa, sans-serif;	
+	
+}
+
+.sidebar .widget .widgetTitle{
+	text-align: left;
+	padding: 15px 0 12px 0;
+	font-weight: bold;
+
+}	
+
+.sidebar .widget ul, .sidebar .widget_revoke_categories ul, .sidebar .widgetGallery, .sidebar .widget .widgetTitle, .sidebar .widget table, .sidebar .widget #searchform{
+	background: transparent !important;	
+}
+
+
+.post .postTitle {
+    margin-top: 55px;
+    margin-bottom: 35px;
+    font-size: 29px;
+    line-height: normal;
+}
+.atw-entry-title{
+	line-height: normal;	
+}
+
+
+.menuContainer {
+    margin-left: 215px;
+    padding-top: 30px;
+    margin-left: 278px;
+	margin-top: 0;
+}
+
+.menuContainer > ul.menu > li.current_page_item > a, .menuContainer > ul.menu > li.current-menu-item > a, .menuContainer > ul.menu > li.current-menu-ancestor > a, .menuContainer > ul.menu > li.current_page_ancestor > a{
+	background-color: #232323 !important;	
+}
+
+.menuContainer div.menuLevel>ul.menuDrop{
+	width: 185px !important;	
+	border: 1px solid #ffc600;
+	background-color: #232323;
+}
+
+.menuContainer div.menuLevel>ul.menuDrop>li{
+	margin-bottom: 5px;	
+	color: white;
+}
+
+
+
+
+.menuContainer>ul.menu>li.menuactive>a, .menuContainer>ul.menu>li>a:hover{
+	background-color: #232323 !important;	
+	color: white !important;
+}
+
+.menuContainer div.menuLevel>ul.menuDrop>li:hover>a{
+	background-color: #ffc600 !important;		
+	color: #232323 !important;
+}
+
+.post-numbers a:hover, .postFooter a:hover, .pingback a:hover, .postCommentsEntryBodyMessage a:hover, .post .postBody a:hover, .pageContents a:hover, .postCommentsEntryBodyUser a:hover, .trackback a:hover{
+	color: #ffc600 !important;	
+}
+
+.menuContainer {
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.main-page-sub-header{
+	width: 100%;
+	height: 500px;
+	background: #ffc600;	
+}
+
+.main-page-sub-header .black{
+	background: #232323;
+	width: 100%;
+	height: 100%;
+}
+
+.header-img{
+	background: url(images/ailyak_in_action.jpg);
+	background-size: cover;
+	width: 60%;	
+	margin: auto;
+	height: 100%;
+	position: relative;
+}
+
+.slogan{
+	padding: 15px 30px 15px 2%;
+	position: absolute;
+	top: 70%;
+	left: 0;	
+	background: rgba(0, 0, 0, .6);
+}
+
+.slogan h1{
+	color: #fff !important;
+	font-size: 23px;
+	margin: 0;
+	
+}
+
+. .widget .widgetTitle{
+	padding: 15px 0 12px 0;	
+	background: transparent;
+	border-bottom: 1px dotted #ffc600;
+}
+
+.widget table, .widget ul, .widget_revoke_categories ul, .widget #searchform, .widgetGallery{
+	background: transparent;
+	padding: 18px 0 19px 0 !important;
+}
+
+.pageSlider ul.pageSliderNav li.active, .pageSlider ul.pageSliderNav li:hover{
+	background-color: #ffc600 !important;
+
+}
+
+
+
+.atw-featured-image{
+ float: left;	
+}
+
+#cff .cff-author .cff-page-name.cff-author-date{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+code{
+	color: #000;
+	
+}
+
+code a, #ccf a{
+	font-family: Arial, Helvetica, sans-serif !important;
+	
+	font-weight: bold;
+	color: #79b626 !important;
+}
+
+
+.menuContainer select {
+  background: #FFC600;
+  border: 1px solid #252525;
+  font-family: comfortaa;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.menuContainer select:hover{
+	 background:#232323;
+	 color: #fff;
+		
+}
+
+.menuContainer select option:hover {
+	
+	 background: #FFC600;
+}
+
+.social {
+    position: absolute;
+    overflow: hidden;
+    top: 15px;
+    right: -65px;
+}
+
+.social a:hover img{
+	background-color: #252525 !important;	
+}
+
+.addtoany_share_save_container{
+	text-align: right;
+		
+}
+
+.sidebar .widget table tbody tr td a{
+		background-color: #79b626 !important;
+	color: white !important;	}	
+
+
+td#today{
+	
+}
+
+.sidebar .widget_revoke_categories ul li a:hover span{
+	    background-color: #79b626 !important;
+}	
+
+.mainSlider .mainSliderItems .mainSliderItemsEntry .mainSliderItemsEntryBox .mainSliderItemsEntryBoxTitle{
+	font-family: futuris, sans-serif;
+		
+}
+
+.menuContainer div.menuLevel>ul.menuDrop>li>div.menuDropArrow{
+    background-color: #252525 !important;
+	background-image: url('images/options/bg_arrow_mn_ac.png')!important;
+}
+
+.menuContainer div.menuLevel>ul.menuDrop>li:hover>div.menuDropArrow{
+	background-color: #ffc600 !important;
+	
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+.wrapper{
+	/*width: 1200px;*/	
+}
+
+.streched {
+    /*width: 935px;*/
+    float: right;
+}
+
+
+.streched .mainSlider .mainSliderItems {
+   	/*width: 935px;*/
+    height: 289px;
+}
+
+.main-page-sub-header {
+    width: 100%;
+    height: 350px;
+    background: #ffc600;
+}
+
+
+.header-img {
+    background: url(images/ailyak_in_action.jpg);
+	background-position: center;
+    background-size: 100% auto;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+	background-repeat: no-repeat;
+}	
+
+.slogan {
+    padding: 15px 30px 15px 10%;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+}
+
+.slogan h1 {
+    color: #fff !important;
+    font-size: 20px;
+    margin: 0;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+.streched .mainSlider .mainSliderItems {
+    width: 300px;
+    height: 127px !important;
+}
+
+
+.titleContainer.titlePage .title{
+	font-size: 25px;
+}
+
+
+
+.logo {
+    max-width:100px;
+    padding-top: 10px;
+    position: relative !important;
+    z-index: 10;
+	margin: auto;
+	float: none;
+	left: 0;
+	top: 0;
+}
+
+.menuContainer{
+	padding-top: 15px !important;	
+}
+	 
+.header{
+	margin-top: 0; 
+	padding-top: 10px;
+	width: 100%;
+}
+
+.main-page-sub-header {
+    width: 100%;
+    height: 250px;
+    background: #ffc600;
+}
+
+
+.header-img {
+    background: url(images/ailyak_in_action.jpg);
+	background-position: center;
+    background-size: auto 100%;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+	background-repeat: no-repeat;
+}	 
+	 
+.social{
+	position: absolute;
+	top: 10px;
+	right: 10px; 
+}
+
+	 
+	 
+body{
+    padding: 0 20px;
+}
+	
+.menuContainer {
+	 margin-left: 0px;
+	 padding-top: 30px;
+	 margin-left:0px; 
+	 margin-top: 0;
+}
+
+
+.wrapper {
+    width: 330px;
+	margin: auto;
+}
+
+.slogan h1 {
+    color: #fff !important;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 339px) {
+    body{
+        padding: 0 20px;
+    }
+	
+
+}
+
+
+
